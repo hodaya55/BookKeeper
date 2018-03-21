@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Document</title>
+    <title>sign-up</title>
 </head>
+
 <body>
     <form>
-        Username: <input type='text' /> <br>
-        Email: <input type='email' /> <br>
-        Password: <input type='password' /> <br>
-        Repeat: <input type='password' /> <br>
-        Telephone: <input type="number"/> <br>
-        Country: <select>
+        <div class="css"> Username: </div>
+        <input type='text' placeholder="Example" />
+        <br>
+        <div class="css"> Email: </div>
+        <input type='email' placeholder="example@xyz.com" />
+        <br>
+        <div class="css">Password:</div>
+        <input type='password' />
+        <br>
+        <div class="css"> Repeat: </div>
+        <input type='password' placeholder="Repeat password" />
+        <br>
+        <div class="css"> Telephone: </div>
+        <input type="number" placeholder="Only number" />
+        <br>
+        <div class="css"> Country: </div>
+        <select>
             <option value="Afghanistan" title="Afghanistan">Afghanistan</option>
             <option value="Åland Islands" title="Åland Islands">Åland Islands</option>
             <option value="Albania" title="Albania">Albania</option>
@@ -264,9 +277,11 @@
             <option value="Yemen" title="Yemen">Yemen</option>
             <option value="Zambia" title="Zambia">Zambia</option>
             <option value="Zimbabwe" title="Zimbabwe">Zimbabwe</option>
-        </select> <br>
-         
-        <button type="submit">Login</button>
+        </select>
+        <br>
+
+        <button type="submit">Sign-up</button>
     </form>
 </body>
+
 </html>
